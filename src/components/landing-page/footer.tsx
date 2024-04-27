@@ -9,7 +9,7 @@ const Footer = () => {
                         <div className="space-y-4">
                             <h2 className="text-black text-lg font-semibold">About Us</h2>
                             <p className="text-black-300">
-                                We are a team of talented developers making websites and apps.
+                                We are a leading software solution dedicated to addressing the critical need for secure password management within organizations. Our innovative application provides a user-friendly interface for managing passwords securely, reducing reliance on elevated privileges and minimizing the risk of data breaches.
                             </p>
                         </div>
 

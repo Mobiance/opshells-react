@@ -8,9 +8,9 @@ import {
 
 const ServiceCard = () => {
     return (
-        <>
-        <h1 className="text-3xl font-semibold">Our services</h1>
-            <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
+        <div className="max-w-4xl mx-auto px-4 md:px-8">
+            <h1 className="text-3xl font-semibold text-center mb-8">Our Services</h1>
+            <BentoGrid className="grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {items.map((item, i) => (
                     <BentoGridItem
                         key={i}
@@ -22,7 +22,7 @@ const ServiceCard = () => {
                     />
                 ))}
             </BentoGrid>
-        </>
+        </div>
     );
 }
 const items = [

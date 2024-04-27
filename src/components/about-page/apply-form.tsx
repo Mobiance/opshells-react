@@ -6,7 +6,7 @@ import { SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } fr
 
 const ApplyForm = () => {
     return (
-        <section className="w-full py-12 lg:py-16 xl:py-20">
+        <form action="mailto:bdickus399@gmail.com" method="GET" className="w-full py-12 lg:py-16 xl:py-20">
             <div className="container grid gap-6 px-4 md:grid-cols-2 md:px-6">
                 <div className="space-y-4 text-center md:space-y-6 md:text-left">
                     <div className="space-y-2">
@@ -53,10 +53,10 @@ const ApplyForm = () => {
                         <Label htmlFor="resume">Upload your resume</Label>
                         <Input accept=".pdf,.doc" id="resume" type="file" />
                     </div>
-                    <Button className="w-full">Submit</Button>
+                    <Button type="submit" className="w-full">Submit</Button>
                 </div>
             </div>
-        </section>
+        </form>
     )
 }
 export default ApplyForm

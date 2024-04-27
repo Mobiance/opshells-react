@@ -51,12 +51,9 @@ export default function PasswordCachePage() {
           <div className="flex flex-col justify-center space-y-2">
             <h3 className="text-xl font-bold">Ready to get started?</h3>
             <p className="text-gray-500 dark:text-gray-400">
-              Download the Password Cache UI Application and take control of your passwords.
+              Contact us at contactus@opshells.com
             </p>
           </div>
-          <form className="space-y-4 md:space-y-0 md:flex md:items-center">
-            <Button className="w-full md:w-auto">Download</Button>
-          </form>
         </div>
       </div>
       <div className="flex items-center">

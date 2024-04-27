@@ -33,9 +33,6 @@ const Navbar = () => {
                 role="menu"
                 aria-hidden={!isOpen}
             >
-                <Link to="/about">
-                    <p onClick={() => setIsOpen(false)} role="menuitem">About</p>
-                </Link>
                 <div className="relative" onMouseEnter={() => setIsSolutionsOpen(true)} onMouseLeave={() => setIsSolutionsOpen(false)}>
                     <Link to="/solutions">
                     <p className="cursor-pointer" onClick={() => setIsOpen(false)} role="menuitem">Solutions</p>
@@ -54,6 +51,9 @@ const Navbar = () => {
                 </Link>
                 <Link to="/careers">
                     <p onClick={() => setIsOpen(false)} role="menuitem">Careers</p>
+                </Link>
+                <Link to="/about">
+                    <p onClick={() => setIsOpen(false)} role="menuitem">About</p>
                 </Link>
                 <Link to="/contact">
                     <p onClick={() => setIsOpen(false)} role="menuitem">Contact Us</p>

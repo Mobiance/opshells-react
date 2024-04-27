@@ -10,7 +10,7 @@ const Hero = () => {
         { text: "Exceptional", className: "text-white" },
     ]
     return (
-        <div className="h-[512px] px-[120px]">
+        <div className="h-[512px] md:px-[120px]">
             <WavyBackground className="h-[480px] bg-cover rounded-lg">
                 <div className="h-full flex items-center justify-center flex-col gap-y-2">
                     <div className="max-w-[720px] text-6xl font-bold"><TypewriterEffect words={words} />
