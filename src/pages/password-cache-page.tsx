@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button"
-
 export default function PasswordCachePage() {
   return (
     <div className="grid gap-12 lg:grid-cols-3 lg:gap-0 items-start max-w-7xl px-4 mx-auto py-12">

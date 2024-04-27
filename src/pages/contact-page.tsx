@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export default function ContactPage() {
   return (
-    <div className="container grid max-w-3xl gap-6 px-4 md:px-6 pb-12 space-y-4">
+    <form action="mailto:contactus@opshells.com" method="post" className="container grid max-w-3xl gap-6 px-4 md:px-6 pb-12 space-y-4">
       <div className="space-y-2">
         <h2 className="text-3xl font-bold">Contact us</h2>
         <p className="text-gray-500 dark:text-gray-400">
@@ -31,7 +31,7 @@ export default function ContactPage() {
           <Label htmlFor="message">Message</Label>
           <Textarea className="min-h-[100px]" id="message" placeholder="Enter your message" />
         </div>
-        <Button>Send message</Button>
+        <Button type="submit">Send message</Button>
       </div>
       <div className="space-y-2">
         <h3 className="text-2xl font-bold">Contact information</h3>
@@ -40,7 +40,7 @@ export default function ContactPage() {
           <p>contactus@opshells.com</p>
         </div>
       </div>
-    </div>
+    </form>
   )
 }
 
